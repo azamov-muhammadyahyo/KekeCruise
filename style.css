@@ -8,7 +8,7 @@
 }
 .hero {
     min-height: 500px;
-    background-image: url(./images/hero/Снимок\ экрана\ 2026-09-09\ 110812.png);
+    background-image: url(./images/hero/hero-pattern.png);
     background-repeat: repeat;
     background-size: 110px, 110px;
 }
