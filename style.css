@@ -1,7 +1,20 @@
 @import "tailwindcss";
 
 .container {
-    width: 1400px;
-    margin: 0 auto;
-    padding: 80px;
+    width: calc(100% - 160px) !important;
+    max-width: none !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero {
+    min-height: 500px;
+    background-image: url(./images/hero/Снимок\ экрана\ 2026-09-09\ 110812.png);
+    background-repeat: repeat;
+    background-size: 110px, 110px;
+}
+.newsLetterHero {
+    min-height: 166px;
+    background-image: url(./images/hero/hero.png);
+    background-repeat: repeat;
+    background-size: 60px, 600px;
 }
