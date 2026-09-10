@@ -178,7 +178,7 @@ blogData.forEach((item) => {
     blogSlider.appendChild(card)
 })
 
-// sichqoncha bilan ushlab yonga surish (drag to scroll)
+
 let isDown = false
 let startX = 0
 let scrollStart = 0
